@@ -3,6 +3,8 @@ Docker local slurm cluster
 
 Created by: Rodrigo Ancavil del Pino
 
+IMPROVED VERSION: EACH NODE AND THE MASTER NODE CONTAINS A RUNNING SSH SERVER FOR LOCAL ADMINISTRATION!
+
 To run slurm cluster environment you must execute:
 
      $ docker-compose -f docker-compose-jupyter.yml up -d
